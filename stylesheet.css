@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Courier Prime';
+    src: url('courier-prime.ttf') format('truetype');
+   font-weight: normal;
+    font-style: normal;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0; 
+}
+body::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: #4C5638;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #CBD5B8;
+}
+body::-moz-scrollbar {
+    width: 0.5em;
+    background-color: #4C5638;
+}
+ 
+body::-moz-scrollbar-thumb {
+  background-color: #CBD5B8;
+}
+.bg {
+  /* #120E0E The image used */
+  background-image: url("/IMG_7541.jpeg");
+
+  /* Full height */
+  height: 60%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	  font-size: 70%
+}
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; 
+  color: #FFF4EB;
+  font-size: 400%;
+  font-family: "Averia Serif Libre";
+  font-weight: normal;
+  line-height: normal;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #181C0E;
+}
+
+ul.navbar li {
+  float: right;
+}
+
+ul.navbar li a {
+  display: block;
+  padding: 0.35em;
+  background-color: #181C0E; 
+  font-size: 150%;
+  font-family: "Averia Serif Libre";
+}
+
+a.navbar:link {
+  color: #FFF4EB;
+  text-decoration: none;
+}
+a.navbar:visited {
+  color: #FFF4EB;
+  text-decoration: none;
+}
+a.navbar:hover {
+  color: #94A66F;
+  text-decoration: none;
+  }
+/* END OF NAVBAR THINGS */
+h3 {
+  text-align: left; 
+  color: #4C5638;
+  font-size: 150%;
+  font-family: "Courier Prime";
+  font-weight: normal;
+  line-height: 100%;
+  text-size-adjust: inherit;
+  padding-left: 7%;
+margin-bottom: 0%
+  }
+p {
+  text-align: left;
+  color: #E9D7DB;
+  text-shadow: 0.088rem 0.088rem 0.125rem #C7ACA6;
+  font-size: 150%;
+  font-family: "Averia Serif Libre";
+  font-weight: normal;
+  line-height: normal;
+  text-size-adjust: inherit;
+  padding-left: 400%;
+  padding-right: 1000%;
+  }
+figcaption {
+    display: inline-block; 
+  text-size-adjust: inherit;
+  text-align: left; 
+  font-family: "Courier Prime";
+  color: #4C5638;
+  font-size: 100%;
+  padding-left: 1%;
+  padding-top: 1%;
+  line-height: 50%
+}
+.div {
+  text-align: center; 
+  color: #FFF4EB;
+  font-size: 50%;
+  font-family: "Averia Serif Libre";
+  font-weight: normal;
+  line-height: normal;
+  }
+#cdiv {
+  text-align: left; 
+  color: #4C5638;
+  font-size: 95%;
+  font-family: "Courier Prime";
+  font-weight: normal;
+  line-height: 80%;
+  text-size-adjust: inherit;
+  padding-left: 4%;
+  max-width: 65%;
+}
+div.about{
+  text-align: left; 
+  color: #4C5638;
+  font-size: 100%;
+  font-family: "Courier Prime";
+  font-weight: normal;
+  line-height: 80%;
+  text-size-adjust: inherit;
+  padding-left: 0%;
+  max-width: 100%;
+	
+}
+#ddiv {
+  text-align: left; 
+  color: #4C5638;
+  font-size: 95%;
+  font-family: "Courier Prime";
+  font-weight: normal;
+  line-height: 80%;
+  text-size-adjust: inherit;
+  padding-left: 4%;
+  max-width: 70%;
+}
+span {
+    clear: both;
+    display:block;
+	padding-top: 1%
+}
+img {
+  display: block;
+  margin-left: 7%;
+  margin-right: auto;
+  padding-left: 2%
+  }
+body {
+  background-color: #CBD5B8;
+  }
+.center {
+  padding: 100%;
+  text-align: center;
+	}
+/* LINKS */
+.link { 
+	color: #4C5638; 
+	text-decoration: underline;
+}
+.link:hover { 
+	color: #94A66F; 
+	text-decoration: underline;
+} 
